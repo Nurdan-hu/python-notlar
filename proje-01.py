@@ -1,39 +1,15 @@
-
-         
-print('     HESAP MAKİNESİ         ')
-    
-
-print('     1- Toplama               ')
-      
-print('     2- Çarpma                ')
-
-print('     3- Çıkarma               ') 
-
-       
-
-
-
-
-
-
-
-
-
-
-
+import hesapmaktry_01
+print("╔═════════════════════╗")
+#print("║\033[1;31;40m   HESAP MAKİNESİ  \033[1;32;40m  ║")
+print("║   VEKTOREL APP      ║")
+print("║                     ║")
+print("║  1-Hesap makinesi   ║")
+print("║  2-Takvim           ║")
+print("║  3-Oyun             ║")
+print("║  4-BMI hesapla      ║")
+print("║  5-Sıcaklık çevirme ║")
+print("║    Seçimiz nedir?   ║")
+print("╚═════════════════════╝")
 
 secim = input ()
-
-
-print(secim,'seçtiniz.')
-if secim == '1' :
-      print('1 seçtiniz, toplama yapılacak.')
-if secim == '2' :
-      print ('2 seçtiniz, çarpma yapılacak.')
-
-
-
- 
-
-
-
+if secim == "1" : hesapmaktry_01.hesaplarmenu()
