@@ -14,4 +14,4 @@ print("╚═════════════════════╝")
 
 secim = input ()
 if secim == "1" : hesapmaktry_01.hesaplarmenu()
-if secim == "2" : calender.tavkım()
+if secim == "2" : calender.takvım()
