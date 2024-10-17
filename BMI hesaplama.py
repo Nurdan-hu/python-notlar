@@ -1,3 +1,3 @@
-a = int(input("Kilonuzu giriniz -kg cinsinden girilmelidir-: "))
-b = int (input("Boyunuzu giriniz -metre cinsinden girilmelidir-: "))
+a = int(input("Kilonuzu giriniz -kilogram-: "))
+b = int (input("Boyunuzu giriniz -metre- :"))
 print(a/(b*b))
