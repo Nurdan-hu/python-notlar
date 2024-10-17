@@ -1,4 +1,5 @@
 import hesapmaktry_01
+import calender
 print("╔═════════════════════╗")
 #print("║\033[1;31;40m   HESAP MAKİNESİ  \033[1;32;40m  ║")
 print("║   VEKTOREL APP      ║")
@@ -13,3 +14,4 @@ print("╚═════════════════════╝")
 
 secim = input ()
 if secim == "1" : hesapmaktry_01.hesaplarmenu()
+if secim == "2" : calender.tavkım()
