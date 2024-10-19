@@ -11,7 +11,6 @@ def anamenu():
     print("║  2-Takvim           ║")
     print("║  3-BMI hesapla      ║")
     print("║  4-Sıcaklık çevirme ║")
-    print("║  5-Oyun             ║")
     print("║    Seçimiz nedir?   ║")
     print("╚═════════════════════╝")
 
