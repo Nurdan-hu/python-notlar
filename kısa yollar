@@ -1,0 +1,6 @@
+control+o: bilgi satırı yapar
+control+a: metni seçer
+control+z: satırı kopyalar
+control+d: aynı kelimeleri seçer aynı anda değiştirebilirsin
+alt tuşuna basarken farklı kelimelerin farklı yerlerini seçerek aynı şeyleri yazabilirsin
+shift+alt+aşağıyön tuşu: aynı satırı kopyalar shiftten elini çekersen metni sürüklersin
