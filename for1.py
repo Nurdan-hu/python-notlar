@@ -14,7 +14,21 @@
 #kelime = "Merhaba"
 #for x in kelime: print(x)
 
+#for a in range (1,11):
+#    for b in range (1,11):
+#        print(a,"x",b,"=",a*b)
+#    print()                                   #çarpım tablosu kodu
+
+#for a in range (1,11):
+#    if a ==3 : continue             #a'nın üç olduğu durumları atlar ve devam eder
+#    for b in range (1,11):
+#        print(a,"x",b,"=",a*b)
+#    print()   
+
 for a in range (1,11):
     for b in range (1,11):
+        if b % 2 == 0 : continue    #b'nin ikiye bölümünden kalanın sıfır olduğu durumları yani çift sayıları atlar.
         print(a,"x",b,"=",a*b)
-    print()                                   #çarpım tablosu kodu
+    print()   
+
+    # continue yerine break komutu yazarak bitirebiliriz.
