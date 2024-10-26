@@ -16,8 +16,8 @@ def hesaplarmenu():
         print('Çıkarma yapılacak...')
     if secim == '4':
         print ('Bölme yapılacak...')
-    num1 = int(input('Birinci sayıyı giriniz:' ))
-    num2 = int(input('İkinci sayıyı giriniz:'))
+    num1 = float(input('Birinci sayıyı giriniz:' ))
+    num2 = float(input('İkinci sayıyı giriniz:'))
     if secim == '1':
         print(num1+num2)
     if secim == '2':
