@@ -25,3 +25,4 @@ def anamenu():
     if secim == "4" :
         sıcaklıkhes.sıcaklık()  
 anamenu()
+input()
