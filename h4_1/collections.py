@@ -10,11 +10,13 @@ meyveler1 += meyveler3         #meyveler3'ü meyveler1'e geçirir.
 print(m4)
 
 print(meyveler1)
-meyveler1.append("karpuz")     #meyveler1'e karpuzu da ekler.
+meyveler1.append("karpuz")     #meyveler1'e karpuzu da ekler.Ancak tuple'lara ekleme yapılamaz(meyveler2).
 print(meyveler1) 
 
 meyveler1.insert(1,"Bostan")   #Birinci yere bostan yazar ve diğer maddeleri yana kaydırır.
 print(meyveler1)
 
-meyveler1.pop()                #son elemanı siler.
-print(meyveler1)
+# meyveler1.pop()                #son elemanı siler.
+# print(meyveler1)
+
+print(meyveler1[2:])             #ikinci elemandan başlar.
