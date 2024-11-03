@@ -1,4 +1,4 @@
-# import os   #os = operatin system 
+# import os   #os = operatin system
 # os.remove("blabla.txt")  #blabla dosyasını sil.
 
 # import os 
