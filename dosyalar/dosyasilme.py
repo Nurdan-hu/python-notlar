@@ -2,6 +2,8 @@
 # os.remove("blabla.txt")  #blabla dosyasını sil.
 
 # import os 
-# os.rmdir("boşboş")         #klasör siler.
+# os.rmdir("boşboş")         #boş klasör siler.
+
+
 
 # os.mk("")   klasör oluşturur.
