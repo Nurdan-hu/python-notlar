@@ -10,16 +10,18 @@ class Girişekranı(QMainWindow):
             dig.setText(mesaj)
             dig.exec()
 
-        def kontrol(self):
+        def kontrol():
             print("Giriş düğmesine tıklandı")
-            
-
+            nnn = QMessageBox(self)
+            nnn.setWindowTitle("bekleniyor...")
+            nnn.setText("Giriş yapılıyor")
+            nnn.exec()
 
         def yyy():
             print("Vazgeç düğmesine tıklandı.")
             aaa = QMessageBox(self)
-            aaa.setWindowTitle("Aman dikkat!")
-            aaa.setText("Vazgeç düğmesine tıklandı")
+            aaa.setWindowTitle("Emin Misin?")
+            aaa.setText("Vazgeç düğmesine tıklandı, çıkmak istediğine emin misin?")
             aaa.exec()
 
         di6 = QVBoxLayout()
