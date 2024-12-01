@@ -12,7 +12,7 @@ try:
   try:
     secilen = vts.cursor()
     # secilen.execute("CREATE DATABASE pythondersleri") #pythondersleri adlı veritabanı sistemi oluşturdu.
-    secilen.execute ("INSERT INTO ogrenciler(ad,telefon) VALUES ('Buse VAROL',9343903)")
+    secilen.execute ("INSERT INTO ogrenciler(ad,telefon) VALUES ('Buse VAROL',9343903)") 
     vts.commit()
     print("Kayıt eklendi.")
 
